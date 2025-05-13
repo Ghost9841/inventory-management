@@ -17,6 +17,7 @@
     "lucide-react": "^0.510.0",
     "next": "15.3.2",
     "numeral": "^2.0.6",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "recharts": "^2.15.3",
@@ -24,7 +25,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.1.6",
     "@types/node": "^20.17.46",
     "@types/numeral": "^2.0.5",
     "@types/react": "^19",
@@ -32,7 +33,8 @@
     "@types/uuid": "^10.0.0",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
-    "tailwindcss": "^4",
+    "tailwindcss": "^4.1.6",
+    "tw-colors": "^3.3.2",
     "typescript": "^5"
   }
 }
