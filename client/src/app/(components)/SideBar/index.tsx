@@ -48,7 +48,7 @@ const SideBar = () => {
         dispatch(setIsSidebarCollapsed(!isSidebarCollapsed));
     };
     const sidebarClass = `fixed flex flex-col ${isSidebarCollapsed ? 'w-0 md:w-16' : 'w-72 md:w-64'
-        } bg-white transition-all duration-300 overflow-hidden h-full shadow-md z-40`
+        } bg-gray-50 transition-all duration-300 overflow-hidden h-full shadow-md z-40`
 
     return (
         <section id="sidebar" className={sidebarClass}>
@@ -93,7 +93,7 @@ const SideBar = () => {
                 href='/settings'
                 icon={Settings2}
                 isCollapsed= {isSidebarCollapsed}
-                label='settings ' />
+                label='Settings' />
 
                 <SidebarLink 
                 href='/expenses'
@@ -103,7 +103,7 @@ const SideBar = () => {
             </div>
 
             {/* Footer */}
-            <footer className={`${isSidebarCollapsed ? "hidden" : "block"} mb-5`}>
+            <footer className={`${isSidebarCollapsed ? "hidden" : "block"}`}>
                 <p className="text-center text-xs text-gray-500">&copy; 2025 Tech Nest</p>
 
             </footer>
